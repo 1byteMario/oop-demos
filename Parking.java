@@ -40,7 +40,7 @@ class ParkingLot {
   }
 }
 
-class Solution {
+class Parking {
   static void createVehicle(ParkingLot p, int id, int lotNumber, String spotType){
     p.setAvailableSpots(100);
     Vehicle e = new Vehicle();
